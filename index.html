@@ -626,7 +626,124 @@
             font-size: 1.1rem;
             opacity: 0.9;
         }
-        
+        /* Brochure Section Styles */
+.brochure-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.brochure-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.brochure-content h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.join-call {
+    text-align: center;
+    font-weight: bold;
+    color: #e74c3c;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 20px;
+    background: #f1f1f1;
+    border-radius: 8px;
+}
+
+.stat-item h3 {
+    color: #3498db;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+.highlights-list, .career-list, .study-areas, .benefits-list {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.highlights-list li, .benefits-list li {
+    margin-bottom: 10px;
+    list-style-type: disc;
+}
+
+.career-list li, .study-areas li {
+    margin-bottom: 15px;
+}
+
+.program-dates {
+    text-align: center;
+    font-weight: bold;
+    margin: 25px 0;
+    font-size: 18px;
+}
+
+.program-description {
+    margin: 25px 0;
+    line-height: 1.6;
+}
+
+.program-highlights, .job-assistance {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.syllabus-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+@media (max-width: 768px) {
+    .syllabus-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.semester {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.semester h4 {
+    color: #3498db;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.experts-grid {
+    display: grid;
+    grid
         /* Contact Section */
         .contact {
             background-color: white;
@@ -1160,8 +1277,7 @@
             <div class="about-content">
                 <div class="about-text animate">
                     <h3>Overview of the BioResearch Community and Its Role in Europe Accreditation</h3>
-                    <p>The BioResearch Community has been accredited by AIAB Europe, facilitating a robust framework recognising our educational courses and research. This not only enhances the credibility of our educational programs but also aligns our research initiatives with international standards.</p>
-
+                    <p>The BioResearch Community has been accredited by AIAB Europe , facilitating a robust framework recognising our educational courses and research . This not only enhances the credibility of our educational programs but also aligns our research initiatives with international standards.</p>
                 </div>
                 <div class="about-image animate">
                     <img src="https://i.ibb.co/pH3pWfy/ai-generated-neuron-cells-neural-network-under-microscope-neuro-research-science-brain-signal-inform.jpg"alt="Education" class="floating">
@@ -1169,6 +1285,233 @@
             </div>
         </div>
     </section>
+  
+  <!-- Brochure Section -->
+<section class="brochure-section">
+    <div class="container">
+        <div class="brochure-content">
+            <h2>EUROPE ACCREDITED PG DIPLOMA IN ARTIFICIAL INTELLIGENCE & MACHINE LEARNING FOR BIOLOGY & PHARMA</h2>
+            <p class="join-call">JOIN US TODAY!<br>
+            TRANSFORM YOUR CAREER BY BECOMING THE EXPERT IN MOST DEMANDING IN THE MARKET</p>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>25+</h3>
+                    <p>International and National experts</p>
+                </div>
+                <div class="stat-item">
+                    <h3>100+</h3>
+                    <p>Industrial partners</p>
+                </div>
+                <div class="stat-item">
+                    <h3>10k+</h3>
+                    <p>Students trained</p>
+                </div>
+                <div class="stat-item">
+                    <h3>10+</h3>
+                    <p>Hands on Projects</p>
+                </div>
+                <div class="stat-item">
+                    <h3>35+</h3>
+                    <p>Practical use cases</p>
+                </div>
+            </div>
+            
+            <h3 class="section-subtitle">HIGHLIGHTS OF THE PROGRAMME</h3>
+            <ul class="highlights-list">
+                <li>Interdisciplinary Approach</li>
+                <li>Hands-on Training</li>
+                <li>Expert Faculty</li>
+                <li>Flexible Curriculum</li>
+            </ul>
+            
+            <p class="program-dates">From 25 June 2025 - 20 June 2026</p>
+            
+            <p class="program-description">
+                Post Graduate Diploma in with a focus on Artificial Intelligence (AI) and 
+                Machine Learning (ML) for Biology and pharma is a specialized program 
+                that combines business management with AI and ML technologies fro 
+                biology and pharma industry
+            </p>
+            
+            <h3 class="section-subtitle">Career Opportunities</h3>
+            <ol class="career-list">
+                <li>AI/ML Engineer in Biotech/Pharma: Design and develop AI/ML models for biological and pharmaceutical applications.</li>
+                <li>Data Scientist in Biotech/Pharma: Analyze and interpret complex biological and pharmaceutical data using AI/ML techniques.</li>
+                <li>Computational Biologist: Apply computational models and algorithms to understand complex biological systems.</li>
+                <li>Pharmaceutical Data Analyst: Analyze and interpret pharmaceutical data to inform business decisions.</li>
+                <li>Research Scientist: Apply AI/ML techniques to biological and pharmaceutical research.</li>
+            </ol>
+            
+            <h3 class="section-subtitle">Key Areas of Study</h3>
+            <ol class="study-areas">
+                <li>Genomics and Proteomics: Analyze and interpret genomic and proteomic data using AI/ML techniques.</li>
+                <li>Personalized Medicine: Develop personalized treatment plans using AI/ML and genomic data.</li>
+                <li>Predictive Modeling: Develop predictive models for disease diagnosis, treatment outcomes, and drug discovery.</li>
+                <li>Clinical Trials: Apply AI/ML techniques to optimize clinical trial design, patient recruitment, and data analysis.</li>
+                <li>Regulatory Affairs: Understand regulatory requirements and compliance for AI/ML applications in biotech and pharma.</li>
+            </ol>
+            
+            <h3 class="section-subtitle">PROGRAM HIGHLIGHTS</h3>
+            <div class="program-highlights">
+                <p>Europe Accrediated</p>
+                <p>Course completion Certificate</p>
+                <p>live classes , flexcible hours</p>
+                <p>recordings of classes provided</p>
+            </div>
+            
+            <h3 class="section-subtitle">BUSINESS/JOB ASSISTANCE</h3>
+            <div class="job-assistance">
+                <p>Resume building & Mentoring support</p>
+                <p>Industrial exposure and Internships</p>
+                <p>Offline hands on exposure availablity</p>
+                <p>Hands on experiences on all aspects</p>
+                <p>Project and publication assistance</p>
+                <p>24/7 accessible study material</p>
+                <p>Practical based learning system</p>
+            </div>
+            
+            <h3 class="section-subtitle">COURSE SYLLABUS</h3>
+            <div class="syllabus-grid">
+                <div class="semester">
+                    <h4>FIRST SEMESTER</h4>
+                    <ol>
+                        <li><strong>Foundations of AI and ML:</strong>
+                            <ul>
+                                <li>Introduction to AI and ML</li>
+                                <li>Machine learning fundamentals</li>
+                                <li>Deep learning basics</li>
+                            </ul>
+                        </li>
+                        <li><strong>Biological Data Analysis:</strong>
+                            <ul>
+                                <li>Introduction to biological data types (genomics, proteomics, etc.)</li>
+                                <li>Data preprocessing and visualization</li>
+                                <li>Statistical analysis of biological data</li>
+                            </ul>
+                        </li>
+                        <li><strong>Computational Biology:</strong>
+                            <ul>
+                                <li>Introduction to computational biology</li>
+                                <li>Sequence analysis and alignment</li>
+                                <li>Phylogenetics and genomics</li>
+                            </ul>
+                        </li>
+                        <li><strong>Pharmaceutical Data Analysis:</strong>
+                            <ul>
+                                <li>Introduction to pharmaceutical data types (clinical trials, etc.)</li>
+                                <li>Data analysis and visualization</li>
+                                <li>Regulatory requirements and compliance</li>
+                            </ul>
+                        </li>
+                        <li><strong>Programming for AI and ML:</strong>
+                            <ul>
+                                <li>Introduction to Python programming</li>
+                                <li>Popular libraries for AI and ML (TensorFlow, PyTorch, etc.)</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+                <div class="semester">
+                    <h4>SECOND SEMESTER</h4>
+                    <ol>
+                        <li><strong>Advanced AI and ML Techniques:</strong>
+                            <ul>
+                                <li>Advanced deep learning techniques</li>
+                                <li>Transfer learning and fine-tuning</li>
+                                <li>Explainable AI and interpretability</li>
+                            </ul>
+                        </li>
+                        <li><strong>Applications of AI and ML in Biology and Pharma:</strong>
+                            <ul>
+                                <li>Predicting protein structures and functions</li>
+                                <li>Identifying biomarkers and disease diagnosis</li>
+                                <li>Personalized medicine and targeted therapy</li>
+                            </ul>
+                        </li>
+                        <li><strong>Project-Based Learning:</strong>
+                            <ul>
+                                <li>Students work on a real-world project applying AI and ML techniques to biological or pharmaceutical data</li>
+                                <li>Project presentations and feedback</li>
+                            </ul>
+                        </li>
+                        <li><strong>Industry Insights and Trends:</strong>
+                            <ul>
+                                <li>Current trends and future directions in AI and ML for biology and pharma</li>
+                                <li>Industry expert talks and networking opportunities</li>
+                            </ul>
+                        </li>
+                        <li><strong>Capstone Project:</strong>
+                            <ul>
+                                <li>Students work on a comprehensive project that integrates AI and ML techniques with biological or pharmaceutical applications</li>
+                                <li>Final project presentation and evaluation</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            
+            <h3 class="section-subtitle">OUR EXPERTS</h3>
+            <div class="experts-grid">
+                <div class="expert">
+                    <p><strong>Dr RATH Satyasambit</strong><br>
+                    Tokyo Institute of technology, JAPAN</p>
+                </div>
+                <div class="expert">
+                    <p><strong>Prof. Naeema Nazar</strong><br>
+                    Dr Ipseeta Nanda<br>
+                    IILM University, IN</p>
+                </div>
+                <div class="expert">
+                    <p><strong>Dr Rahul Vadisetty</strong><br>
+                    Global Strategy Representative for India @ IEEE Photonics Society, USA AI Expert, USA</p>
+                </div>
+                <div class="expert">
+                    <p><strong>Dr Harishchander Anandaram</strong><br>
+                    AI & Computational Biology expert, IN</p>
+                </div>
+                <div class="expert">
+                    <p><strong>Mr Santhosh</strong><br>
+                    Dr Mohit Tiwari<br>
+                    Bharati Vidyapeeth's College of Engineering,Delhi, IN</p>
+                </div>
+                <div class="expert">
+                    <p><strong>Dr LV Reddy</strong><br>
+                    Chief technology officer, AHB, IN<br>
+                    Autonomous vehicles expert YV University, IN</p>
+                </div>
+            </div>
+            
+            <h3 class="section-subtitle">BENEFITS</h3>
+            <ul class="benefits-list">
+                <li><strong>High Demand:</strong> AI and ML skills are in high demand in the biotech and pharma industries.</li>
+                <li><strong>Career Advancement:</strong> Provides opportunities for career advancement and leadership roles in biotech and pharma companies.</li>
+                <li><strong>Innovation:</strong> Equips students with the skills and knowledge needed to drive innovation in biotech and pharma.</li>
+                <li><strong>Networking:</strong> Provides opportunities to network with industry professionals, researchers, and entrepreneurs.</li>
+            </ul>
+            
+            <div class="registration-section">
+                <div class="qr-code">
+                    <p>SCAN & REGISTER</p>
+                    <!-- QR code image would go here -->
+                </div>
+                <div class="note">
+                    <p><strong>NOTE</strong><br>
+                    For Instalments and discounts for bulk registrations contact us<br>
+                    +91 8867394159<br>
+                    bioresearchcommunity@gmail.com</p>
+                    
+                    <p class="price">INR 39,999 / £ 1000</p>
+                    <p class="organized">Organised by BioResearch Community</p>
+                </div>
+            </div>
+            
+            <div class="brochure-download">
+                <a href="https://www.canva.com/design/DAGoD6XGCVo/jpS_b5wQrss0I8fQvtKc3g/edit?utm_content=DAGoD6XGCVo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="download-btn" target="_blank">Download Brochure</a>
+            </div>
+        </div>
+    </div>
+</section>
 
   <!-- Apply for Internship Section -->
 <section class="internship-apply" id="internships" style="padding: 60px 0; background-color: #f9f9f9;">
@@ -1228,6 +1571,44 @@
         </div>
     </div>
 </section>
+  
+   <!-- Courses Section -->
+    <section class="courses" id="courses">
+        <div class="container">
+            <div class="section-title">
+                <h2>Course Overview</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text animate">
+                    <h3>Range of Courses Offered</h3>
+                    <ul style="list-style-type: none; margin-left: 20px;">
+                        <li style="margin-bottom: 10px;"><i class="fas fa-certificate" style="color: var(--secondary); margin-right: 10px;"></i> Diplomas: Short programs for foundational knowledge in biotech.</li>
+                        <li style="margin-bottom: 10px;"><i class="fas fa-certificate" style="color: var(--secondary); margin-right: 10px;"></i> Certificates: Focused courses on specific industry skills.</li>
+                        <li style="margin-bottom: 10px;"><i class="fas fa-certificate" style="color: var(--secondary); margin-right: 10px;"></i> Degree Programs: In-depth undergraduate and postgraduate studies.</li>
+                        <li style="margin-bottom: 10px;"><i class="fas fa-certificate" style="color: var(--secondary); margin-right: 10px;"></i> Doctoral Programs: Advanced research opportunities.</li>
+                    </ul>
+                    
+                    <h3 style="margin-top: 30px;">Curriculum Details</h3>
+                    <ul style="list-style-type: none; margin-left: 20px;">
+                        <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 10px;"></i> Industry-Relevant Content: Courses are designed with input from industry experts to ensure alignment with current market needs.</li>
+                        <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 10px;"></i> Practical Applications: Emphasis on hands-on learning experiences, including lab work and real-world projects.</li>
+                    </ul>
+                    
+                    <h3 style="margin-top: 30px;">Target Audience</h3>
+                    <ul style="list-style-type: none; margin-left: 20px;">
+                        <li style="margin-bottom: 10px;"><i class="fas fa-user-graduate" style="color: var(--secondary); margin-right: 10px;"></i> Aspiring Professionals: Individuals seeking to enter the biotechnology and life sciences fields.</li>
+                        <li style="margin-bottom: 10px;"><i class="fas fa-briefcase" style="color: var(--secondary); margin-right: 10px;"></i> Career Changes: Those looking to transition into new roles within the industry.</li>
+                        <li style="margin-bottom: 10px;"><i class="fas fa-chart-line" style="color: var(--secondary); margin-right: 10px;"></i> Continuing Education: Professionals aiming to enhance their skills and knowledge for career advancement.</li>
+                    </ul>
+                </div>
+                <div class="about-image animate">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Students learning" class="floating">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Services Section -->
     <section class="services" id="services">
         <div class="container">
@@ -1306,43 +1687,7 @@
   </div>
 </section>
 
-    <!-- Courses Section -->
-    <section class="courses" id="courses">
-        <div class="container">
-            <div class="section-title">
-                <h2>Course Overview</h2>
-            </div>
-            
-            <div class="about-content">
-                <div class="about-text animate">
-                    <h3>Range of Courses Offered</h3>
-                    <ul style="list-style-type: none; margin-left: 20px;">
-                        <li style="margin-bottom: 10px;"><i class="fas fa-certificate" style="color: var(--secondary); margin-right: 10px;"></i> Diplomas: Short programs for foundational knowledge in biotech.</li>
-                        <li style="margin-bottom: 10px;"><i class="fas fa-certificate" style="color: var(--secondary); margin-right: 10px;"></i> Certificates: Focused courses on specific industry skills.</li>
-                        <li style="margin-bottom: 10px;"><i class="fas fa-certificate" style="color: var(--secondary); margin-right: 10px;"></i> Degree Programs: In-depth undergraduate and postgraduate studies.</li>
-                        <li style="margin-bottom: 10px;"><i class="fas fa-certificate" style="color: var(--secondary); margin-right: 10px;"></i> Doctoral Programs: Advanced research opportunities.</li>
-                    </ul>
-                    
-                    <h3 style="margin-top: 30px;">Curriculum Details</h3>
-                    <ul style="list-style-type: none; margin-left: 20px;">
-                        <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 10px;"></i> Industry-Relevant Content: Courses are designed with input from industry experts to ensure alignment with current market needs.</li>
-                        <li style="margin-bottom: 10px;"><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 10px;"></i> Practical Applications: Emphasis on hands-on learning experiences, including lab work and real-world projects.</li>
-                    </ul>
-                    
-                    <h3 style="margin-top: 30px;">Target Audience</h3>
-                    <ul style="list-style-type: none; margin-left: 20px;">
-                        <li style="margin-bottom: 10px;"><i class="fas fa-user-graduate" style="color: var(--secondary); margin-right: 10px;"></i> Aspiring Professionals: Individuals seeking to enter the biotechnology and life sciences fields.</li>
-                        <li style="margin-bottom: 10px;"><i class="fas fa-briefcase" style="color: var(--secondary); margin-right: 10px;"></i> Career Changes: Those looking to transition into new roles within the industry.</li>
-                        <li style="margin-bottom: 10px;"><i class="fas fa-chart-line" style="color: var(--secondary); margin-right: 10px;"></i> Continuing Education: Professionals aiming to enhance their skills and knowledge for career advancement.</li>
-                    </ul>
-                </div>
-                <div class="about-image animate">
-                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Students learning" class="floating">
-                </div>
-            </div>
-        </div>
-    </section>
-
+    
     <!-- Specializations Section -->
 <section class="services" id="specializations">
     <div class="container">
